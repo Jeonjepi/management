@@ -16,6 +16,9 @@
   .store{
     flex-wrap: wrap;
   }
+  .fran-text{
+    flex-wrap: wrap;
+  }
 }
 
 #root {
@@ -183,28 +186,7 @@ textarea{
   background-color: rgb(233, 233, 233);
 }
 
-.mn-container{
-  justify-content: center;
-  margin: 0;
-  margin-bottom: 200px;
-}
-.mn-content{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-  padding: 0;
-  margin-top: 50px;
-  text-align: center;
-  position: relative;
-}
-.mn-content-detail{
-  width: 400px;
-  height: 400px;
-  position: relative;
-  padding: 20px;
-  margin: 0;
-}
+
 
 .banner_img, .banner_bg{
   display:inline-block;
@@ -296,6 +278,48 @@ textarea{
 .store_sb{
   font-size: 20px;
   font-weight: 500;
+}
+.mn-container{
+  justify-content: center;
+  margin: 0;
+  margin-bottom: 200px;
+}
+.mn-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  padding: 0;
+  margin-top: 50px;
+  text-align: center;
+  position: relative;
+}
+.mn-content-detail{
+  width: 400px;
+  height: 400px;
+  position: relative;
+  padding: 20px;
+  margin: 0;
+}
+.fran-text{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  padding: 0;
+  margin-top: 50px;
+  text-align: center;
+  position: relative;
+}
+.radius-text{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+  background-color: #FFF3F3;
 }
 
 .btn-16 {

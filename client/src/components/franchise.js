@@ -36,6 +36,11 @@ class Franchise extends React.Component {
                                 <p className="intro2">점주 신청 / 문의</p>
                             </div>
                         </div>
+                    <div className="fran_text">
+                        <div className="radius-text">test</div>
+                        <div className="radius-text">test</div>
+                        <div className="radius-text">test</div>
+                    </div>
                     </div>
                     <div className='App-footer'>
                     </div>

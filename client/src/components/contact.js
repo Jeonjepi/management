@@ -65,6 +65,7 @@ function Contact() {
                         <p className="intro1">CONTACT</p>
                         <p className="intro2">점주 신청 / 문의</p>
                         <div>
+                            <p className="intro3">신청 양식</p>
                             <form>
                                 <input
                                     type="text"
@@ -97,6 +98,7 @@ function Contact() {
                     </div>
                 </div>
             </div>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
             <div className='App-footer'>
             </div>
         </div>

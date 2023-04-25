@@ -72,7 +72,7 @@ class Home extends Component {
           <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA/klEQVR4nO2YMQrCQBBFXzprC2u9QsBK8BQpxNt4I29g6RFULK201cZCVgRtQtBJdidB/Q+2nccnu7OzASGEqCAHFsAK2AAXIPAlngwogO2zWNVKgatnBKzfFE4VxNUzAY6G4rFBXD1T4GosHhPE1TMETjWKNw3i6smMezU2iLunMBY8AHOg3yCEuyf70Ppeaw8MGgZoxZMbit+AcUSIVjwLg2AZGaIVz8ogmCUI4u7ZGQSPGzgWd8/ZIOglCOLuCSn7eJee8E9BQo3VmScoCPoiQVsLnRHUtUqo/aJ7BN3soXwwdEbQrIWmXzTGo/cIXbRFjSi4/0cQQggh+AnuEzNJL2yPVmMAAAAASUVORK5CYII="></img>
           <h1>&nbsp;태양,</h1>
           <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAABZklEQVR4nO2YrUpEURRGV9BqMhhEQaPVps1mMJhMitUHcIrBpBaDFovJFxCMRkEwmWTAN1CYJPiDgoowwXL3dxxnhrsv34Kb12LumXPP2WCMMcYYY4yp4KvPT918Ev8AeAXgvwDeA/AmiL8C+DOIzwH4IIRPgvgojO8C+DKEb4P4OoznAXgggidCeCRGg2eCq8B9n2LeaugrYgRYB27+GfRYU9+fmAG2gDPgFngAXguD2gl8PbNQEHSe2CeZLAjaI69PMlEQtExen2ROxHwAY+T1SVZE0CW5fZJ9EbRJbp+kHcQ8DWA5DtsXMi/exhG5fZJjsRnNktsXMt5dclVBp+T2SQ6DmGdgity+kGngJQhqkdsnuQhi7oBRcvtC1oKYT2CR3D55EekEQQfk9oX8LLOrIOa6O9DI6pOcBDGdAezCw/ZJWhUx78AS+X09R23QHF8Ru79itmmerzhqh+b6jDHGGENz+QaJpdKFA080egAAAABJRU5ErkJggg=="></img>
-          <p>
+          <p className="main_foot_detail">
             <br />
             태양은 태양계의 중심이 되는 행성이지만 <br />
             매우 소중하거나 희망을 주는 존재를 말합니다.

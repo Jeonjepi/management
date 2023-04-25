@@ -1,5 +1,4 @@
 import axios from "axios";
-import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 function Contact() {
@@ -69,24 +68,25 @@ function Contact() {
                             <form>
                                 <input
                                     type="text"
-                                    placeholder="Contact name"
+                                    placeholder="이름"
                                     required
                                     id="name"
                                 /><br />
                                 <input
                                     type="text"
-                                    placeholder="Contact phoneNumber"
+                                    placeholder="핸드폰 번호"
                                     required
                                     id="phoneNumber"
                                 /><br />
                                 <input
                                     type="text"
-                                    placeholder="Contact email"
+                                    placeholder="희망 지역"
                                     required
                                     id="region"
                                 /><br />
                                 <textarea
                                     id="descrip"
+                                    placeholder="기타 문의사항"
                                 />
                                 <br />
                                 <button className="btn-16" type="submit" value="Add contact"

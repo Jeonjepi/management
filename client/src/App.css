@@ -19,6 +19,12 @@
   .fran-text{
     flex-wrap: wrap;
   }
+  .input{
+    width: 80%;
+  }
+  .textarea{
+    width: 80%
+  }
 }
 
 #root {
@@ -81,6 +87,21 @@ height: 100%;
   margin-bottom: 100px;
   margin: 0 0 50 0 ;
 }
+.intro3{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 5rem;
+  margin-bottom: 0;
+}
+
+.intro4{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 0;
+  margin: 0 0 50 0 ;
+}
 
 
 .menu{
@@ -96,7 +117,8 @@ height: 100%;
 }
 
 .main_image {
-  height: 1000px;
+  width: 60%;
+  height: 50%;
   padding-top: 100px;
   margin: auto;
   display: inline-block;
@@ -128,21 +150,24 @@ height: 100%;
 .left{
   font-size: 20px;
   display: block;
+  text-decoration:none !important;
+}
+a:hover{
+  text-decoration:none !important;
+}
+a{
+  text-decoration:none !important;
 }
 .hover{
   color: white;
-  text-decoration: none;
 }
 .hover:visited{
-  text-decoration: none;
   color: white;
 }
 .hover:hover{
-  text-decoration: none;
   color: brown;
 }
 .hover:active{
-  text-decoration: none;
 }
 
 .Wrapper{
@@ -161,7 +186,7 @@ height: 100%;
 }
 
 input {
-  width: 500px;
+  width: 400px;
   height: 40px;
   font-size: 15px;
   border: 0;
@@ -174,7 +199,7 @@ input {
 }
 
 textarea{
-  width: 500px;
+  width: 400px;
   height: 300px;
   font-size: 15px;
   border: 0;
@@ -251,7 +276,7 @@ textarea{
 }
 
 .main_foot{
-  width: 30%;
+  width: 40%;
 }
 
 .main_foot_detail{
@@ -307,19 +332,47 @@ textarea{
   justify-content: center;
   width: 100%;
   padding: 0;
-  margin-top: 50px;
+  margin: 0 auto;
   text-align: center;
   position: relative;
 }
 .radius-text{
   justify-content: center;
-  display: flex;
+  display: inline-block;
   flex-direction: column;
-  margin: 0 auto;
-  width: 300px;
-  height: 300px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 200px;
+  width: 200px;
+  height: 200px;
   border-radius: 30px;
+  margin: 20px;
   background-color: #FFF3F3;
+}
+
+.contact-btn{
+  width: 140px;
+  height: 45px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.contact-btn:hover {
+  background-color: #d10000;
+  box-shadow: 0px 15px 20px rgba(255, 174, 174, 0.4);
+  color: #fff;
+  font-weight: bold;
+  transform: translateY(-7px);
 }
 
 .btn-16 {

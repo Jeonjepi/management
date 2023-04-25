@@ -106,6 +106,7 @@ function Admin() {
                     </div>
                 </div>
             </div>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
             <div className='App-footer'>
             </div>
         </div>

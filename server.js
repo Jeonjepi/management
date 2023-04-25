@@ -13,6 +13,7 @@ app.get('/api/hello', (req, res) => {
 })
 
 app.get('/api/users', (req, res) => {
+    res.header("Access-Control-Allow-Origin", "*");
     db.query("select * from user", (err, data) => {
         if(!err){
             res.send(data)
@@ -23,6 +24,7 @@ app.get('/api/users', (req, res) => {
 })
 
 app.post('/api/users', (req, res) => {
+    res.header("Access-Control-Allow-Origin", "*");
     const name = req.body.name 
     const phone_number = req.body.phone_number 
     const region = req.body.region 
@@ -32,6 +34,7 @@ app.post('/api/users', (req, res) => {
     
     db.query(sqlQuery, [name, phone_number, region, description], (err, data) => {
         if(!err){
+            alert("신청이 완료되었습니다.")
             res.send(data)
         }else{
             console.log(err)

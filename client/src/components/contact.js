@@ -25,7 +25,10 @@ function Contact() {
                 phone_number: phoneNumber,
                 region: region,
                 description: descrip
-            }).then(window.open("test"))
+            }).then((response) => {
+                alert("신청이 완료 되었습니다.")
+                console.log("res", response)
+            })
             .catch(function (error) {
                     console.log("error", error)
             })

@@ -13,7 +13,6 @@ function Contact() {
         const regionInput = document.getElementById("region")
         const descripInput = document.getElementById("descrip")
         const btn = document.getElementById("btn")
-        console.log("123", nameInput)
 
         btn.addEventListener("click", () => {
             const name = nameInput.value
@@ -26,10 +25,8 @@ function Contact() {
                 phone_number: phoneNumber,
                 region: region,
                 description: descrip
-            }).then((response) => {
-                alert("신청이 완료 되었습니다.")
-            })
-                .catch(function (error) {
+            }).then(window.open("test"))
+            .catch(function (error) {
                     console.log("error", error)
             })
         })
@@ -55,10 +52,10 @@ function Contact() {
                     </div>
                     <div>
                         <ul className='no_dot'>
-                            <li className='left'><Link to="/menu"><a href="" className="hover">MENU</a></Link>&nbsp;&nbsp;</li>
-                            <li className='left'><Link to="/store"><a href="" className="hover">STORE</a></Link>&nbsp;&nbsp;</li>
-                            <li className='left'><Link to="/franchise"><a href="" className="hover">FRANCHISE</a></Link>&nbsp;&nbsp;</li>
-                            <li className='left'><Link to="/contact"><a href="" className="hover">CONTACT US</a></Link></li>
+                            <li className='left'><Link to="/menu"><a href="#;" className="hover">MENU</a></Link>&nbsp;&nbsp;</li>
+                            <li className='left'><Link to="/store"><a href="#;" className="hover">STORE</a></Link>&nbsp;&nbsp;</li>
+                            <li className='left'><Link to="/franchise"><a href="#;" className="hover">FRANCHISE</a></Link>&nbsp;&nbsp;</li>
+                            <li className='left'><Link to="/contact"><a href="#;" className="hover">CONTACT US</a></Link></li>
                         </ul>
                     </div>
                 </div>
@@ -89,7 +86,8 @@ function Contact() {
                                 /><br />
                                 <textarea
                                     id="descrip"
-                                    placeholder="기타 문의사항"
+                                    placeholder=" 
+                                    기타 문의사항"
                                 />
                                 <br />
                                 <button className="contact-btn" type="submit" value="Add contact"

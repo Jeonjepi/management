@@ -1,7 +1,6 @@
 import './App.css';
 import React, { Component } from 'react';
-import ImageSlider, { Slide } from "react-auto-image-slider";
-import { BrowserRouter, Routes ,Route, Link } from "react-router-dom";
+import { Routes ,Route } from "react-router-dom";
 import Home from './components/Home';
 import Menu from './components/menu';
 import Store from './components/store';

@@ -34,7 +34,6 @@ app.post('/api/users', (req, res) => {
     
     db.query(sqlQuery, [name, phone_number, region, description], (err, data) => {
         if(!err){
-            alert("신청이 완료되었습니다.")
             res.send(data)
         }else{
             console.log(err)

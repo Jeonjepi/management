@@ -24,10 +24,10 @@ class Store extends React.Component{
                             </div>
                             <div>
                                 <ul className='no_dot'>
-                                    <li className='left'><Link to="/menu"><a href="" className="hover">MENU</a></Link>&nbsp;&nbsp;</li>
-                                    <li className='left'><Link to="/store"><a href="" className="hover">STORE</a></Link>&nbsp;&nbsp;</li>
-                                    <li className='left'><Link to="/franchise"><a href="" className="hover">FRANCHISE</a></Link>&nbsp;&nbsp;</li>
-                                    <li className='left'><Link to="/contact"><a href="" className="hover">CONTACT US</a></Link></li>
+                                    <li className='left'><Link to="/menu"><a href="#;" className="hover">MENU</a></Link>&nbsp;&nbsp;</li>
+                                    <li className='left'><Link to="/store"><a href="#;" className="hover">STORE</a></Link>&nbsp;&nbsp;</li>
+                                    <li className='left'><Link to="/franchise"><a href="#;" className="hover">FRANCHISE</a></Link>&nbsp;&nbsp;</li>
+                                    <li className='left'><Link to="/contact"><a href="#;" className="hover">CONTACT US</a></Link></li>
                                 </ul>
                             </div>
                         </div>

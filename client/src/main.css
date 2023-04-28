@@ -1,0 +1,51 @@
+.menu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+  }
+  
+  .menu li {
+    position: relative;
+  }
+  
+  .menu a {
+    display: block;
+    padding: 10px 20px;
+    color: black;
+    font-weight: 500;
+  }
+  
+  .menu .sub-menu {
+    position: absolute;
+    width: 200px;
+    top: 30px;
+    left: 0;
+    background-color: #fff;
+    padding: 20px;
+    display: block;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.8s ease-in-out; /* 변경 */
+    list-style: none;
+    border: none;
+  }
+  
+  .menu .sub-menu.active {
+    display: block;
+    opacity: 1;
+    height: auto;
+
+
+  }
+  .menu .sub-menu:not(:hover) {
+    background-color: transparent; /* 변경 */
+  }
+  .menu .sub-menu li {
+    margin-bottom: 10px;
+  }
+  
+  .menu .sub-menu li:last-child {
+    margin-bottom: 0;
+  }
+

@@ -1,4 +1,5 @@
 import './App.css';
+import './main.css'
 import React, { Component } from 'react';
 import { Routes ,Route } from "react-router-dom";
 import Home from './components/Home';
@@ -7,6 +8,7 @@ import Store from './components/store';
 import Franchise from './components/franchise';
 import Contact from './components/contact';
 import Admin from './components/admin';
+import MenuBar from './components/main';
 
 
 class App extends Component {
@@ -19,6 +21,7 @@ class App extends Component {
       <Route path="/franchise" element={<Franchise />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/admin" element={<Admin />}/>
+      <Route path="/main" element={<MenuBar />}/>
     </Routes>
       )
   }

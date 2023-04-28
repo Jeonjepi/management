@@ -12,7 +12,7 @@ html{
   
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 1797px){
   .mn-content{
     flex-wrap: wrap;
   }
@@ -21,12 +21,6 @@ html{
   }
   .fran-text{
     flex-wrap: wrap;
-  }
-  .input{
-    width: 80%;
-  }
-  .textarea{
-    width: 80%
   }
   .fran-text{
     display: flex;
@@ -46,13 +40,47 @@ html{
   .span-b{
     display: block;
   }
+
+  input{
+    width: 250px;
+  }
+  textarea{
+    width: 250px;
+  }
+  .left{
+    font-size: 14px;
+  }
+  .main-insta{
+    height: 1500px;
+  }
+
+  .main_foot_detail{
+    font-size: 14px;
+  }
 }
 
-@media screen and (min-width: 1007px) {
+@media screen and (min-width: 767px) {
   .span-b {
     display: none;
   }
+ .left{
+  font-size: 18px;
+ }
+  input{
+    width: 400px;
+  }
+  textarea{
+    width: 400px;
+  }
+  .main-insta{
+    height: 700px;
+  }
+
+  .main_foot_detail{
+    font-size: 18px;
+  }
 }
+
 
 #root {
 height: 100%;
@@ -175,7 +203,7 @@ height: 100%;
   list-style-type: none;
 }
 .left{
-  font-size: 18px;
+
   display: block;
   text-decoration:none !important;
 }
@@ -193,8 +221,6 @@ a{
 }
 .hover:hover{
   color: brown;
-}
-.hover:active{
 }
 
 .Wrapper{
@@ -215,7 +241,6 @@ a{
 }
 
 input {
-  width: 400px;
   height: 40px;
   font-size: 15px;
   border: 0;
@@ -230,7 +255,6 @@ input {
 }
 
 textarea{
-  width: 400px;
   height: 300px;
   font-size: 15px;
   border: 0;
@@ -311,13 +335,11 @@ textarea{
   width: 40%;
 }
 
-.main_foot_detail{
-  font-size: 16px;
-}
+
 
 .main-insta{
   background-color: #FFF3F3;
-  height: 2000px;
+
 }
 
 .main-insta-name{

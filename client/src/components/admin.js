@@ -17,7 +17,6 @@ function Admin() {
     useEffect(() => {
         axios.get("http://54.180.26.148:5000/api/users").then((response) => {
             setInfo(response.data);
-            console.log("data", response.data)
         }, [])
     })
 

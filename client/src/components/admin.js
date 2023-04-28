@@ -13,12 +13,17 @@ import Paper from '@mui/material/Paper';
 function Admin() {
 
     const [info, setInfo] = useState()
-
+  try{
     useEffect(() => {
-        axios.get("/api/users").then((response) => {
+        axios.get("http://54.180.26.148:5000/api/users").then((response) => {
             setInfo(response.data);
+            console.log("data", response.data)
         }, [])
     })
+
+  }catch(e){
+    console.log("error", e)
+  }
 
     const StyledTableCell = styled(TableCell)(({ theme }) => ({
         [`&.${tableCellClasses.head}`]: {
